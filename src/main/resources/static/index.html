@@ -530,9 +530,9 @@ async function uploadFile() {
     document.body.style.overflow = 'hidden';
 
     // Definir URL base
-    let url = "http://localhost:8080/api/analyze/upload";
+    let url = "/api/analyze/upload";
     if (method === "mlp") {
-        url = "http://localhost:8080/api/analyze/mlp";
+        url = "/api/analyze/mlp";
     }
 
     try {
