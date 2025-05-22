@@ -822,7 +822,7 @@
             formData.append("yAttr", yAttr);
             formData.append("k", k);
 
-            fetch("http://localhost:8080/api/analyze/kmeans-plot", {
+            fetch("/api/analyze/kmeans-plot", {
                 method: "POST",
                 body: formData
             })

@@ -767,7 +767,7 @@
       formData.append("validation", validationMethod);
 
       try {
-        const response = await fetch("http://localhost:8080/api/analyze/mlp-structure", {
+        const response = await fetch("/api/analyze/mlp-structure", {
           method: "POST",
           body: formData
         });
